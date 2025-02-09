@@ -1,0 +1,144 @@
+body{
+  background-image: url("https://as1.ftcdn.net/v2/jpg/04/78/35/22/1000_F_478352239_ckoEVDJZX54tvAzxpL3F7UOr2qoXx0wV.jpg");
+}
+
+
+.correct-answer  .accordion-button.collapsed{
+  background-color: limegreen;
+  font-weight: bold;
+  color: white;
+}
+
+.wrong-answer  .accordion-button.collapsed{
+  background-color: red;
+  font-weight: bold;
+  color: white;
+
+}
+
+.correct-answer .accordion-button:not(.collapsed) {
+  background-color: limegreen !important; 
+  color: white !important;
+  font-weight: bold;
+
+}
+
+.wrong-answer .accordion-button:not(.collapsed) {
+  background-color: red !important; 
+  color: white !important;
+  font-weight: bold;
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.QuestionCard{
+  display: flex;
+  justify-content: center;
+  justify-items:center;
+  height: 100vh;
+  align-items:center;
+  align-self: self-start;
+  padding: 10px;
+}
+
+.optionButton{
+  margin-bottom: 1rem;
+  width: 80%;
+  
+}
+
+.optionList{
+  list-style:upper-alpha;
+}
+
+.questionDescription{
+  border: 1px black solid;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.PrevnextButton{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.previousButton{
+  margin-bottom: 2rem;
+  margin-left: 24px;
+  border: 10px;
+  width: 40%;
+}
+
+.nextButton{
+  margin-bottom: 2rem;
+  margin-left: 24px;
+  border: 10px;
+  width: 40%;
+}
+
+@keyframes startAnimation{
+  from{
+    height: 3.5rem;
+    width: 15rem;
+  }
+  to{
+    height: 5rem;
+    width: 20rem;
+  }
+}
+.startButton{
+  animation-name: startAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width:512px) {
+  .nextButton{
+    width: 70%;
+  }
+  .previousButton{
+    width: 70%;
+  }
+}
+
