@@ -36,9 +36,7 @@ TestLine Quiz is a web-based quiz application that incorporates gamification ele
 5. **Access the Quiz**: Open `http://localhost:3000` in your browser.
 
 ## Screenshots & Walkthrough
-```
-https://drive.google.com/drive/folders/1MdtE1Ud4z0thggdZU3tHwQg-nUWiYR-0?usp=sharing
-```
+[UI link](https://drive.google.com/drive/folders/1MdtE1Ud4z0thggdZU3tHwQg-nUWiYR-0?usp=sharing)
 
 ## API Integration
 - Fetches quiz data from `https://api.jsonserve.com/Uw5CrX`
